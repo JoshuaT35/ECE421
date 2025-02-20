@@ -3,10 +3,10 @@
 ## How to run main/tests
 
 ### To run `main()`
-- For question 2, run `cargo run --package question2`.
+- For question 2, run `cargo run question2`.
 
 ### To run tests
-- For question 2, run `cargo test --package question2`.
+- For question 2, run `cargo test question2`.
 
 ## Question 2 Answers
 
