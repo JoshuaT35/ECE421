@@ -1,5 +1,5 @@
 [package]
-name = "linked_list"
+name = "question1"
 version = "0.1.0"
 authors = ["nasha"]
 edition = "2018"

@@ -9,7 +9,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "43dccc7449d6ba85f621d26e711b2fa3aad4133feee1bdb0721505ad7e4d4e77"
 
 [[package]]
-name = "linked_list"
+name = "question1"
 version = "0.1.0"
 
 [[package]]

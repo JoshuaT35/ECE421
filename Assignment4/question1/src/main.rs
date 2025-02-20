@@ -1,3 +1,5 @@
+use self::LinkedList::*;
+
 #[derive(Debug, PartialEq, Clone)]
 pub enum LinkedList<T> {
 	Tail,
@@ -38,14 +40,12 @@ impl<T: Clone> LinkedList<T> {
 				*self = Self::new(value)
 			}
 			// if self is a head, go to next item (Head or Tail)
-			LinkedList::Head(val, next) => {
+			LinkedList::Head(_, next) => {
 				next.push_back(value);
 			}
 		}
 	}
 }
-
-use self::LinkedList::*;
 
 #[cfg(test)]
 mod tests {

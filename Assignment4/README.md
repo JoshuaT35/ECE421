@@ -1,6 +1,6 @@
 # ECE421 Assignment 4
 
-## How to run
+## How to run main/test
 
 - For question 1 code, run `cargo package --run question1`.
 - For question 2 code, run `cargo package --run question2`.
