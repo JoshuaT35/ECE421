@@ -1,11 +1,16 @@
 # ECE421 Assignment 4
 
-## How to run main/test
+## How to run main/tests
 
-- For question 1 code, run `cargo package --run question1`.
-- For question 2 code, run `cargo package --run question2`.
-- For question 3 code, run `cargo package --run question3`.
-- For question 5 code, run `cargo package --run question5`.
+### To run `main()`
+- For question 1, run `cargo run --package question1`.
+- For question 2, run `cargo run --package question2`.
+- For question 3, run `cargo run --package question3`.
+- For question 5, run `cargo run --package question5`.
+
+### To run tests
+- For question 1, run `cargo test --package question1`.
+- For question 2, run `cargo test --package question2`.
 
 ## Question 2 Answers
 
@@ -21,18 +26,18 @@ Since the `task` struct instance was not declared using the `mut` keyword, chang
 
 ## Question 4 Answers
 
-(a)
+(a)\
 The program creates two DoubleNode structs, `node_a` and `node_b`. The program makes the `next` field of `node_a` point to `node_b`, and the `prev` field of `node_b` point to `node_a`.
 
-(b)
+(b)\
 Th data structure `DoubleNode` intends to implement a double-linked list, where each `DoubleNode` points to the `DoubleNode`s before and after it. `DoubleNode`s at the end of the list point to `None`.
 
-(c)
+(c)\
 `Rc<RefCell<Option<DoubleNode>>>` uses an `Rc` pointer, which keeps track of how many `Rc` pointers point to the same data. If this number reaches 0, then the memory is automatically deallocated. This way, we can keep track of how many `Rc`-like pointers to a `DoubleNode` exist.
 
 `Weak<RefCell<Option<DoubleNode>>>` uses `Weak`, which is a version of `Rc` that has weak-ownership of the data. This means that a `Weak` pointer does not contribute to the number of `Rc`-like pointers that point to the data, and is thus not used in the counter for automatic deallocation. However, it means that a `DoubleNode` can be manually deallocated even if other `DoubleNodes` point to it.
 
-(d)
+(d)\
 `*a.borrow_mut()` dereferences both the `Rc` and `Refcell` pointers, extracting `Some(node_a)`.
 
 `Some(node_a)` is then matched with `Some(ref mut x)`, setting `x` as a mutable reference to `node_a`.
