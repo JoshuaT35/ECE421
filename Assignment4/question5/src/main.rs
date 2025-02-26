@@ -57,13 +57,13 @@ impl<T> List<T> {
         // assumption: node is appended to the end of the list
 
         // get the last node
-        match &self.last {
+        match self.last.take() {
             // last node exists
             Some(last_node_ptr) => {
                 // clone pointer so it can be used as mutable
                 let mut last_node_clone = last_node_ptr.clone();
                 // append data to the last node
-                Node::append(&mut last_node_clone, data);
+                self.last = Node::append(&mut last_node_clone, data);
             },
             // last node does not exist (empty list)
             None => {
