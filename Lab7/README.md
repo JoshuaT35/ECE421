@@ -2,6 +2,10 @@
 
 ## How to run main
 
+### To build
+- Build all the projects by running `cargo build`.
+- Or build a specific project `<project-name>` by running `cargo build --package <project-name>`.
+
 ### To run `main()`
 - For question 1, run `cargo run --package question1`.
 - For question 2, run `cargo run --package question2`.
@@ -12,6 +16,6 @@
 - For question 10, run `cargo run --package question10`.
 - For question 11, run `cargo run --package question11`.
 
-## Question 6 Answers
+## Question 6 Answer
 Output is:
 `The average age of people older than 30 is 36.5`
