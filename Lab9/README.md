@@ -30,7 +30,7 @@ The machine code for question 3 can be found in `question1-2-3/machine_code_with
 The addition of the optimization `-O` flag reduced the number of machine code lines from 617 to 50. This drastically improved the performance of the program.
 
 ## Question 5 answer
-This is a result from running the benchmarks for question 5 (actual result may vary).
+This is a result from running the benchmarks for question 5 (actual results may vary).
 ---
 selection_sort
 time: [77.387 ms 81.195 ms 85.473 ms]
@@ -41,7 +41,7 @@ Found 7 outliers among 100 measurements (7.00%)
 According to this, the time it takes for the `selection_sort()` function to complete ranges from 77.387ms (worst) - 85.473ms (best), with the median being 81.195ms. Furthermore, 7 samples out of 100 run were outliers.
 
 ## Question 7 answer
-This is a result from running the benchmarks for question 7 (actual result may vary).
+This is a result from running the benchmarks for question 7 (actual results may vary).
 ---
 selection_sort
 time: [68.113 ms 72.120 ms 76.800 ms]
