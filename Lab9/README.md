@@ -4,7 +4,7 @@
 
 ### To build
 - Build all the projects by running `cargo build`.
-- Build a specific project `<project-name>` by running `cargo build --package <project-name>`.
+- Or build a specific project `<project-name>` by running `cargo build --package <project-name>`.
 
 ### To run `main()`
 - For question 1, run `cargo run --package question1`.
