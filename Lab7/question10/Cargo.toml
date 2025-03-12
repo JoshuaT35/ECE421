@@ -1,0 +1,11 @@
+[package]
+name = "question10"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+error-chain = "0.12.4"
+image = "0.25.4"
+num = "0.4.3"
+num_cpus = "1.16.0"
+threadpool = "1.8.1"
