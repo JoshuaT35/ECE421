@@ -1,9 +1,9 @@
 # ECE421 Assignment 6 - Question 2
 
 ## Author
-Name: Joshua Tablan
-CCID: tablan
-student ID: 1726177
+Name: Joshua Tablan\
+CCID: tablan\
+student ID: 1726177\
 
 ## How to run main/tests
 
@@ -15,4 +15,4 @@ student ID: 1726177
 
 ## Notes
 1. Created table `balances` which tracks a user and the user's balance. Used the command:\
-CREATE TABLE balances(u_name text PRIMARY KEY, balance INTEGER NOT NULL, FOREIGN KEY (u_name) REFERENCES users(u_name));
+`CREATE TABLE balances(u_name text PRIMARY KEY, balance INTEGER NOT NULL, FOREIGN KEY (u_name) REFERENCES users(u_name));`
