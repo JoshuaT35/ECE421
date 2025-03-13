@@ -1,5 +1,10 @@
 # ECE421 Lab 9
 
+## Author
+Name: Joshua Tablan\
+CCID: tablan\
+student ID: 1726177
+
 ## How to run main/benchmarks/tests
 
 ### To build
