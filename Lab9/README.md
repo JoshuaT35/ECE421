@@ -16,12 +16,9 @@
 - For question 7, run `cargo bench --package question6-7`.
 
 ### To run tests (for Question 10)
-- Test if a new user is successfully added: `cargo test --package DBProject --test test_user_not_exist`
-- Test if a user already exists: `cargo test --package DBProject --test test_user_exists`
-- Test if a new transaction is successfully added: `cargo test --package DBProject --test test_transaction_not_exist`
-- Test if a transaction already exists: `cargo test --package DBProject --test test_transaction_exists`
+- Run `cargo test --package DBProject`.
 
-NOTE: since tests may access a database in parallel, each test was split into its own files.
+NOTE: All tests run in series, so might be slow.
 
 ## Question 2 Answer
 The machine code for question 2 can be found in `question1-2-3/machine_code.txt`.

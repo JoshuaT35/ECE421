@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 bcrypt = "0.17.0"
 sqlite = "0.36.2"
+serial_test = "3.2.0"
