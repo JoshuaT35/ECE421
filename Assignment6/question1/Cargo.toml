@@ -1,0 +1,10 @@
+[package]
+name = "question1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bcrypt = "0.17.0"
+sqlite = "0.36.2"
+chrono = "0.4.40"
+serial_test = "3.2.0"
