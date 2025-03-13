@@ -50,9 +50,9 @@ This is a result from running the benchmarks for question 7 (actual results may 
 According to this, the time it takes for the `selection_sort()` function to complete ranges from 68.113ms (worst) - 76.800ms (best), with the median being 72.120ms. Furthermore, 8 samples out of 100 were outliers.
 
 ## Question 8 answer
-There were more outliers in `Question 5` benchmarks than in `Question 5` benchmarks, which indicates that iterations in `Question 7` were less consistent (and less predictable) in the time it took for them to run than in `Question 5`.
+There were more outliers in `Question 7` benchmarks than in `Question 5` benchmarks, which indicates that iterations in `Question 7` were less consistent (and less predictable) in the time it took for them to run than in `Question 5`.
 
-However, the time it takes for a sample to run in `Question 7` benchmarks is generally shorter than in `Question 8`. This indicates that the code benchmarked in `Question 7` is faster overall than in `Question 5`.
+However, the time it takes for a sample to run in `Question 7` benchmarks is generally shorter than in `Question 8`. This indicates that the code benchmarked in `Question 7` is overall faster than in `Question 5`.
 
 ## Question 9 answer
 A *zero cost abstraction* is an abstraction applied to current code that does not increase the run-time cost of an application. These abstractions usually have other effects, such as increase performance or enhancing code readability. Examples would be using functions in-place of repeated code.
