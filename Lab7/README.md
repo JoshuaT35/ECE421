@@ -96,9 +96,7 @@ Found 2 outliers among 100 measurements (2.00%)
 *10 (10.00%) high mild*\
 *5 (5.00%) high severe*
 
-At vector size 1 000, the parallel average is faster than the sequential average. However, at subsequent vector sizes, the sequential average is faster than the parallel average.
-
-This is surprising as we would normally expect the opposite to happen. A possible reason why this might be the case is that the overhead incurred by using the `Rayon` library at higher vectors might overshadow the time saved by each parallel process, since the work for reach porcess is also quite small.
+At all vector sizes, the sequential average is faster than the parallel average.
 
 ## Question 11 answer
 *into_par_iter* from the `Rayon` library. Furthermore, we also had to wrap the vector which stored pixel data in `Arc<Mutex<>>` since there were race conditions in updating the pixel data.

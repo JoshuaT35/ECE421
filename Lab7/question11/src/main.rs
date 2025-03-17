@@ -46,22 +46,21 @@ fn wavelength_to_rgb(wavelength: u32) -> Rgb<u8> {
 fn mandelbrot(x: u32, y: u32, width: u32, height: u32, max_iter: u32) -> u32 {
     let width = width as f32;
     let height = height as f32;
+
+    let mut z = Complex::new(0.0, 0.0);
     
-    // Map pixel coordinates to complex plane
     let c = Complex {
+        // scale and translate the point to image coordinates
         re: 3.0 * (x as f32 - 0.5 * width) / width,
         im: 2.0 * (y as f32 - 0.5 * height) / height,
     };
     
-    let mut z = Complex::new(0.0, 0.0);
     let mut i = 0;
-
-    // Iterate to check if the point remains bounded
     for t in 0..max_iter {
         if z.norm() >= 2.0 {
             break;
         }
-        z = z * z + c; // Mandelbrot iteration
+        z = z * z + c;
         i = t;
     }
 
