@@ -3,7 +3,7 @@
 ## Author
 Name: Joshua Tablan\
 CCID: tablan\
-student ID: 1726177\
+student ID: 1726177
 
 ## How to run main/tests
 
