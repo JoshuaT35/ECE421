@@ -12,4 +12,4 @@ student ID: 1726177
 - Run `cargo run`.
 
 ## NOTES
-Based on code given in ECE 421 Assignment 8,also found here [https://github.com/uofa-ece421/sync-server](Sync Server: Assignment 8 provided code).
+Based on code given in ECE 421 Assignment 8,also found at: [Sync Server: Assignment 8 provided code](https://github.com/uofa-ece421/sync-server).
