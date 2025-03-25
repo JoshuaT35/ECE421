@@ -1,4 +1,4 @@
-# ECE421 Assignment 7 Question 2 - AKA Assignment7_Q2
+# ECE421 Assignment 8
 
 ## Author
 Name: Joshua Tablan\
