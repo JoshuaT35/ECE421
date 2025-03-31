@@ -1,6 +1,7 @@
 // import from lib.rs
 use DBProject::*;
 
+use sqlite::State;
 use serial_test::serial;
 
 // test to add a user that does not exist (new user)

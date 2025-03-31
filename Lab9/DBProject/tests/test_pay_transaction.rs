@@ -1,14 +1,13 @@
 // import from lib.rs
 use DBProject::*;
 
-use serial_test::serial;
-
 use sqlite::State;
+use serial_test::serial;
 
 // test to add a payment that does not exist (new payement)
 #[test]
 #[serial]
-fn test_add_ney_payment() {
+fn test_add_new_payment() {
     // create a struct for the "users" database
     let usersdb = UserBase::new(
         "data/users.db".to_string(),
