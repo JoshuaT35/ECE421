@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "database-handler",
+    "poker-model",
+    "poker-client",
+    "poker-server",
+]

@@ -1,0 +1,8 @@
+[package]
+name = "question5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hamcrest = "0.1.5"
+factorial = "0.4.0"

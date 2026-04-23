@@ -1,15 +1,10 @@
-# ECE421 Assignment 8
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WD2VoLMI)
+# Async Server
 
-## Author
-Name: Joshua Tablan\
-CCID: tablan\
-student ID: 1726177
+- uses the reqwest crate to make http requests on behalf of a client
+- simultaneously performs a periodic task
+- handles multiple simultaneous client requests
 
-### To build
-- Run `cargo build`.
+1. Uses tokio and async/await for concurrency
+2. Isn't actually concurrent :-(
 
-### To run `main()`
-- Run `cargo run`.
-
-## NOTES
-Based on code given in ECE 421 Assignment 8,also found at: [Sync Server: Assignment 8 provided code](https://github.com/uofa-ece421/sync-server).

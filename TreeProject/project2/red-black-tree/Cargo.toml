@@ -1,0 +1,12 @@
+[package]
+name = "red-black-tree"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+term_size = "0.3.2"
+atty = "0.2.14"
+rustyline = "15.0.0"
+nom = "8.0.0"
+ptree = "0.5.2"
+colored = "2.0.0"

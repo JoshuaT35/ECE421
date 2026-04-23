@@ -1,0 +1,16 @@
+[package]
+name = "poker-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poker-model = { path = "../poker-model" }
+database-handler = { path = "../database-handler" }
+strum = "0.26.3"
+strum_macros = "0.26.4"
+rayon = "1.10.0"
+
+[dev-dependencies]
+rand = "0.9"
+tempfile = "3.2"
+mockall = "0.13.1"
